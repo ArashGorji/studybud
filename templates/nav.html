@@ -12,6 +12,9 @@
         <a href="..">
         <h1>Home</h1>
     </a>
+    <form action="{% url 'home' %}" method="get">
+        <input type="text" name="q" placeholder="search Rooms...">
+    </form>
     </div>
 
     <hr>
