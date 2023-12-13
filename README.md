@@ -1,7 +1,6 @@
-# studybud
-a new project with django
-# StudyBud Web Page
 
+# StudyBud Web Page
+First Django project
 Developer: Arash Gorji  
 App: The Simple StudyBud Web Page  
 Created: December 13, 2023
