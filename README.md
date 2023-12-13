@@ -52,15 +52,22 @@ Visit http://localhost:8000/ in your web browser to access the StudyBud web page
 ## Dependencies
 StudyBud relies on the following external libraries:
 asgiref==3.7.2
+
 Django==5.0
+
 django-cors-headers==4.3.1
+
 djangorestframework==3.14.0
+
 Pillow==10.1.0
+
 pytz==2023.3.post1
+
 sqlparse==0.4.4
+
 tzdata==2023.3
 
 To install these dependencies, run:
-
+```bash
 pip install -r requirements.txt
-
+```
