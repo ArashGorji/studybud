@@ -1,6 +1,8 @@
 from django.urls import path
 from .views import home, room, create_room, update_room, delete_room, login_page, logout_user, register_user, \
     delete_message, user_profile, update_user, topics_pages, activity_page
+from django.conf import settings
+from django.conf.urls.static import static
 
 urlpatterns = [
     path("login/", login_page, name="login"),
@@ -17,3 +19,5 @@ urlpatterns = [
     path("topics/", topics_pages, name="topics"),
     path("activity/", activity_page, name="activity"),
 ]
+
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
