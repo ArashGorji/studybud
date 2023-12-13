@@ -45,7 +45,7 @@ To run StudyBud, execute the following command:
 
 ```bash
 python manage.py runserver
-
+```
 
 Visit http://localhost:8000/ in your web browser to access the StudyBud web page.
 
